@@ -4052,6 +4052,10 @@
   #define OTASUPPORT          // Support over-the-air firmware updates
   #define WIFI_CUSTOM_COMMAND // Accept feature config commands (e.g., WiFi ESP3D) from the host
 
+  #define WIFI_SSID "SP_AUTO_Guest"
+  #define WIFI_PWD  "SPAUTO888"
+
+
   /**
    * To set a default WiFi SSID / Password, create a file called Configuration_Secure.h with
    * the following defines, customized for your network. This specific file is excluded via
