@@ -204,6 +204,9 @@ typedef struct { int16_t value; celsius_t celsius; } temp_entry_t;
 #if ANY_THERMISTOR_IS(2000) // "Ultimachine Rambo TDK NTCG104LH104KT1 NTC100K motherboard Thermistor" https://product.tdk.com/en/search/sensor/ntc/chip-ntc-thermistor/info?part_no=NTCG104LH104KT1
   #include "thermistor_2000.h"
 #endif
+#if ANY_THERMISTOR_IS(2001) //custom
+  #include "thermistor_2001.h"
+#endif
 #if ANY_THERMISTOR_IS(998) // User-defined table 1
   #include "thermistor_998.h"
 #endif
